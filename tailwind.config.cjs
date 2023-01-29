@@ -5,6 +5,9 @@ module.exports = {
     './index.html'
   ],
   theme: {
+    fontFamily: {
+      sans: ['"Inter"', 'sans-serif']
+    },
     extend: {
       colors: {
         background: '#09090A'
