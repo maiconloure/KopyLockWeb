@@ -17,15 +17,7 @@ navigator.serviceWorker.register('service-worker.js')
       })
     }
 
-    // SUBSCRIPTION
-    // {
-    //   "endpoint": "https://fcm.googleapis.com/fcm/send/d6GknMtjc7E:APA91bGs-TrgBq1xG1mNRQmm_8kqox04ky6o9RC5SLeomgCujGeVsPxaihbxpeAE-_Uz5EN2y7hyeUC4BDhZbZMP7Prf_xr5lVWPw7sa0G37U8aAOXIPMfYSb5rk-al8YpVEU9gjjpQn",
-    //   "expirationTime": null,
-    //   "keys": {
-    //       "p256dh": "BIbpzIb4j7t6Cw-AGBOXd2CIbWbgdPxPHIfh5TPtfnx0Zzy9IFu_mNzkivDe_vwBM1marhwfQAw-ZENJTiBasIQ",
-    //       "auth": "BoKUGcWoRnsc5H8KnUhzaQ"
-    //   }
-    // }
+
 
     await api.post('/push/register', {
       subscription
